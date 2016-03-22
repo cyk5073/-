@@ -38,7 +38,7 @@ $chk_sql = "select * from tb_member where m_id = '".trim($_POST[m_id])."'";
 $chk_result = sql_query($chk_sql);
 $chk_data = mysql_fetch_array($chk_result);
 
-// 5. 아이디가 존재 하는 경우
+// 5. 아이디가 존재 하는 경우123
 if($chk_data[m_idx]){
 
     // 5. 입력된 비밀번호와 저장된 비밀번호가 같은지 비교해서

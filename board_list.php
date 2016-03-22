@@ -61,7 +61,7 @@ include ("./include.php");
                 $reply_str .= '&nbsp;&nbsp;&nbsp;';
             }
             $reply_str .= '┗';
-        }p
+        }p//
 
         ?>
         <tr>

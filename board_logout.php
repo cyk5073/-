@@ -8,7 +8,7 @@ $_SESSION[user_id] = "";
 $_SESSION[user_name] = "";
 
 ?>
-<script>
+<script>//
     alert("로그아웃이 되어습니다.");
     location.replace("board_login.php");
 </script>

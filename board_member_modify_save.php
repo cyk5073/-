@@ -5,7 +5,7 @@ include ("./include.php");
 // 2. 로그인 안한 회원은 로그인 페이지로 보내기
 if(!$_SESSION[user_id]){
     ?>
-    <script>
+    <script>//
         alert("로그인 하셔야 합니다.");
         location.replace("board_login.php");
     </script>

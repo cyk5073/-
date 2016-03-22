@@ -49,7 +49,7 @@ if(!$_SESSION[user_id]){
         </tr>
     </table>
 
-<script>
+<script>//
     // 5.입력필드 검사함수
     function write_save()
     {

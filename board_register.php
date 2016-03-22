@@ -5,7 +5,7 @@ include ("./include.php");
 // 2. 로그인한 회원은 뒤로 보내기
 if($_SESSION[user_id]){
     ?>
-    <script>
+    <script>//
         alert("로그인 하신 상태입니다.");
         history.back();
     </script>

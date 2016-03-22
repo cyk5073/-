@@ -25,7 +25,7 @@ if(trim($_POST[b_idx]) == ""){
 
 if(trim($_POST[b_title]) == ""){
     ?>
-    <script>
+    <script>//
         alert("글제목을 입력해 주세요.");
         history.back();
     </script>

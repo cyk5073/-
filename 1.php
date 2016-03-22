@@ -18,4 +18,4 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
 } else {
     print "파일 업로드 공격의 가능성이 있습니다!\n";
 }
-?>
+?>//

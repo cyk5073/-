@@ -66,7 +66,7 @@ if(!$data[b_idx]){
         </td>
     </tr>
 </table>
-<script>
+<script>//
     function board_delete(b_idx)
     {
         if(confirm('댓글을 포함한 글을 삭제 하시겠습니까?')){

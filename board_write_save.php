@@ -26,7 +26,7 @@ if(trim($_POST[b_title]) == ""){
 
 if(trim($_POST[b_contents]) == ""){
     ?>
-    <script>
+    <script>//
         alert("글내용을 입력해 주세요.");
         history.back();
     </script>
@@ -41,7 +41,7 @@ if(true)
 
 $day=date("Y-m-d A h:i:s");
 // 4. 글저장
-$sql = "insert into tb_board set b_num = '".$_SESSION[b_num]."', m_id = '".$_SESSION[user_id]."', m_name = '".$_SESSION[user_name]."', b_title = '".addslashes(htmlspecialchars($_POST[b_title]))."', b_contents = '".addslashes(htmlspecialchars($_POST[b_contents]))."', b_regdate = '".$day."'";
+$sql = "insert into tb_board set b_num = '".$_SESSION[b_num]."', m_id = '".$_SESSION[user_id]."', m_name = '".$_SESSION[user_name]."', b_title = '".addslashes(htmlspecialchars($_POST[b_title]))."', b_contents = '".addslashes(htmlspecialchars($_POST[b_contents]))."', b_regdate = '".$day."',, b_file = '".$uploadfile."'";
 sql_query($sql);
 // 7. 글목록 페이지로 보내기
 ?>

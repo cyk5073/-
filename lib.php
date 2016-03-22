@@ -27,7 +27,7 @@ function sql_query($sql)
     return $result;
 }
 
-// 갯수 구하는 함수
+// 갯수 구하는 함수123
 function sql_total($sql)
 {
     global $connect;
